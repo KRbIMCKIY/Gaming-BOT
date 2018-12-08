@@ -92,7 +92,7 @@ client.on('ready', () => {
     const loginsbot = new RichEmbed()
     .setTitle('Информация Discord Bot')
     .setColor('0x008000')
-    .setDescription('Бот запустился\nDiscord Developer Bot by Desert_Gamer!')
+    .setDescription('Бот запустился\nDiscord Developer Bot by  Алах  )
     client.guilds.find(g => g.id == "495177551098937345").channels.find(c => c.name == "connect-disconnect").send(loginsbot);
     client.user.setPresence({ game: { name: 'by Desert_Gamer' }, status: 'online' })
 });
